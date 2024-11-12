@@ -1,0 +1,376 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.nav-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f5f7fb;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+.navbarlogo{
+width: 100px;
+margin-right: 20px;
+}
+.nav-input {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-input input{
+  width: 600px;
+  margin-right: 80px;
+  padding: 10px;
+  background-color: rgb(213, 253, 240);
+  border-style: none;
+
+
+}
+.navlogin {
+  margin-right: 200px;
+}
+
+.navlogin button {
+  padding: 8px 16px;
+  background-color: white;
+  border: none;
+  color: #0f0f0f; 
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: large;
+}
+.navlogin button span{
+margin-right: 5px;
+}
+
+.navlogin button:hover {
+  background-color: #1313ea;
+  color: #f9f9f9;
+}
+.nav-cart {
+  margin-right: 80px;
+}
+.nav-cart span{
+color: black;
+margin-right: 5px;
+}
+
+.submenu{
+  background-color: white;
+  padding: 10px 0;
+  width: 100%;
+}
+.submenulist{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding: 0;
+  margin-bottom: 20px;
+
+}
+.submenulist li {
+  text-align: center;
+  font-size: 14px;
+}
+
+.submenulist img {
+  width: 75px;
+  height: 75px;
+}
+
+.submenulist span {
+  display: block;
+  margin-top: 5px;
+  font-size: large;
+  font-weight: 600;
+  list-style: none;
+  
+}
+.mobile-card{
+  display: flex;
+}
+.img-div{
+  width: 80%;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: aliceblue;
+}
+.img-img{
+  width: 80%;
+}
+
+.Pagesection{
+  display: grid;
+  grid-template-columns: repeat(4,300px);
+gap: 30px;
+margin: 20px ;
+}
+
+
+.pagecard {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  margin: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-left: 100px;
+}
+
+.pagecard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pagecard img {
+  width: 100%;
+  /* height: 200px; */
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.pagecard h4, .pagecard h5 , .pagecard h3{
+  margin: 10px 0;
+  font-weight: 500;
+}
+.mobilesheading{
+  margin-left: 15px;
+  font-weight: 900;
+  font-size: xx-large}
+
+.pagecard span {
+  font-weight: bold;
+}
+.pagecard h3 {
+  font-size:22px ;
+  color: brown;
+}
+
+.pagecard h4 {
+  font-size: 18px;
+  color:greenyellow;
+}
+
+.pagecard h5 {
+  font-size: 16px;
+  color: black;
+}
+.pagecard h4 :hover,
+ .pagecard h5 :hover , 
+ .pagecard h3 :hover{
+  color: rgb(33, 183, 173);
+  cursor: pointer;
+
+}
+.singlepage {
+  display: grid;
+  grid-template-columns: 60% 50%;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+}
+.singlepage img {
+  width: 600px;
+  height: auto;
+  object-fit: cover;
+}
+.singleproduct{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.singleproduct h2{
+  font-size: xx-large;
+  font-weight: 900;
+  color: rgb(20, 20, 20);
+  
+}
+
+.singleproduct h3{
+color: red;
+font-weight: bolder;
+font-size: x-large;
+}
+
+.singleproduct h5{
+font-size: large;
+color: rgb(41, 12, 144);
+font-weight: bold;
+}
+.singlebutton{
+  background-color: brown;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  color:black;
+  font-size: large;
+  font-weight: bold;
+}
+.fullpage{
+  display: flex;
+}
+.proselected{
+  width: 30%;
+  /* border: 1px solid black; */
+  box-shadow: 0 0 5px black;
+  margin-left: 8px;
+
+}
+.proinput input{
+  margin: 10px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  font-size: x-large;
+  font-weight: bolder;
+
+
+}
+.nav-input input {
+  border-radius: 7px;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  color: #1313ea;
+}
+
+.cartsection {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s ease;
+}
+
+.cartsection:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cartimg {
+  flex: 0 0 100px;
+  margin-right: 15px;
+}
+
+.cartimg img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.cartdetails {
+  flex: 1;
+}
+
+.cartdetails h3 {
+  font-size: 1.1em;
+  margin: 5px 0;
+}
+
+.cartdetails h2 {
+  font-size: 1.5em;
+  color: #27ae60;
+  margin: 5px 0;
+}
+.addtocartbutton{
+  gap: 10px;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: small;
+  font-weight: 800;
+  background-color:green;
+  border-radius: 5px;
+}
+.pagebutton{
+  gap: 10px;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: small;
+  font-weight: 800;
+  background-color:rgb(29, 145, 180);
+  border-radius: 5px;
+}
+.nav-cart span{
+  color:red ;
+}
+.nav-cart{
+  text-decoration: none;
+
+
+}
+.yourcart{
+  text-align: center;
+  color: rgb(8, 42, 19);
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: 20px;
+
+}
+.empty{
+  text-align: center;
+  color: rgb(195, 13, 22);
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: 100px;
+}
+.removefromcartbutton{
+  gap: 10px;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: small;
+  font-weight: 800;
+  background-color:rgb(236, 43, 43);
+  border-radius: 5px; 
+}
+.submenu ul li{
+  color: red;
+  text-decoration: none;
+  text-underline-position: inherit;
+}
+
+.bgimages{
+  width: 100%;
+  height: 250px;
+  background-color: aquamarine;
+ 
+  animation: changeBgimage 20s ease-in-out infinite;
+  transition: background-image 1s ease-in-out;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+  
+}
+@keyframes changeBgimage{
+  0%{
+      background-image: url('https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/5a1405c015420316.jpg?q=20');
+  }
+  20%{
+      background-image: url('https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/126619f56d1f3607.jpg?q=20');
+  }
+  40%{
+      background-image: url('https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/4dd0662c65bb0dd0.jpg?q=20');
+  }
+  60%{
+      background-image: url('https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/da4df321793ed4d1.jpg?q=20');
+  }
+  80%{
+      background-image: url('https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/07afa7dd338ab5b8.jpeg?q=20');
+  }
+  100%{
+      background-image: url('https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/d0e281a0cfa9c139.jpg?q=20');
+  }
+}
